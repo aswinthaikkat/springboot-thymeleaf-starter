@@ -22,4 +22,10 @@ public class helloController {
          model.addAttribute("hello", "helloWOrld");
          return "hello";
     }
+    
+    
+    @GetMapping("/bootstrap")
+    public String hello(){
+         return "bootstrapdemo";
+    }
 }
